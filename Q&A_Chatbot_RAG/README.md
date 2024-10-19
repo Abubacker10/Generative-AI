@@ -15,8 +15,8 @@ This project demonstrates the implementation of a **Retrieval-Augmented Generati
   
 ## Technologies Used
 
-- **Vector Database**: Pinecone (or any other vector database) for storing and retrieving document embeddings.
-- **Generative Model**: Cohere API (or any other LLM) for generating responses based on retrieved context.
+- **Vector Database**: FAISS (or any other vector database) for storing and retrieving document embeddings.
+- **Generative Model**: GEMINI API (or any other LLM) for generating responses based on retrieved context.
 - **Streamlit**: Used for building the interactive frontend interface.
 - **LangChain**: For managing the question-answering chain and retrieval process.
 

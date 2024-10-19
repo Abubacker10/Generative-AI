@@ -49,7 +49,7 @@ This project demonstrates the implementation of a **Retrieval-Augmented Generati
 6. **Upload the business document:**
    Upload the provided business document (set_up_business.pdf) through the interface.
    Ask questions in the chat interface, and the bot will respond based on the document content.
-
+<br>
 
 ├── app.py                     # Main Streamlit app
 ├── chain.py                   # RAG model and document loading logic
@@ -57,5 +57,6 @@ This project demonstrates the implementation of a **Retrieval-Augmented Generati
 ├── .env.example               # Example environment variables
 ├── README.md                  # Project README
 └── set_up_business.pdf        # Sample business document
+</br>
 
 This **README** template should provide all the necessary information for setting up and running your project. Let me know if you need further customization!

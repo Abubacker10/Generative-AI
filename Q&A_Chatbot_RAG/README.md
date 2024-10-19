@@ -33,3 +33,29 @@ This project demonstrates the implementation of a **Retrieval-Augmented Generati
    ```bash
    git clone git@github.com:Abubacker10/Generative-AI.git
    cd Q&A_Chatbot_RAG
+2. **Create and activate a virtual environment:**
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+3. **Install dependencies:**
+   pip install -r requirements.txt
+
+4. **Set up API keys:**
+   GOOGLE_API_KEY=your-gemini-api-key
+
+5. **Run the Streamlit app:**
+   streamlit run app.py
+
+6. **Upload the business document:**
+   Upload the provided business document (set_up_business.pdf) through the interface.
+   Ask questions in the chat interface, and the bot will respond based on the document content.
+
+
+├── app.py                     # Main Streamlit app
+├── chain.py                   # RAG model and document loading logic
+├── requirements.txt           # Project dependencies
+├── .env.example               # Example environment variables
+├── README.md                  # Project README
+└── set_up_business.pdf        # Sample business document
+
+This **README** template should provide all the necessary information for setting up and running your project. Let me know if you need further customization!

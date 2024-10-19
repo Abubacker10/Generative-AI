@@ -31,5 +31,5 @@ This project demonstrates the implementation of a **Retrieval-Augmented Generati
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/business-qa-bot.git
-   cd business-qa-bot
+   git clone git@github.com:Abubacker10/Generative-AI.git
+   cd Q&A_Chatbot_RAG

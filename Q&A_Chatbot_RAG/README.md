@@ -24,8 +24,7 @@ This project demonstrates the implementation of a **Retrieval-Augmented Generati
 
 - Python 3.x
 - A virtual environment (recommended)
-- API access to a large language model (Cohere/OpenAI API, etc.)
-- Pinecone API access (for document embeddings)
+- API access to a large language model (Gemini API, etc.)
 
 ## Setup Instructions
 

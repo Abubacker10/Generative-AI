@@ -11,7 +11,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-# groq_api_key = "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"
+# groq_api_key = "YOUR_API_KEY"
 
 # llm = ChatGroq(groq_api_key=groq_api_key, model_name="llama-3.1-8b-instant")
 os.environ['OPENAI_API_KEY'] = 'yeyeyey111'

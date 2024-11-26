@@ -1,0 +1,9 @@
+crewai-tools 
+crewai 
+langchain_experimental
+langchain_core
+langchain_community
+textwrap3
+python-dotenv
+langchain_groq
+sentence-transformers

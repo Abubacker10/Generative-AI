@@ -8,12 +8,12 @@ from dotenv import load_dotenv
 import os
 import openai
 from huggingface_hub import login
-login(token = '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')
+login(token = 'hf-')
 # # Configuring the OpenAI API Key
 # load_dotenv()
 # openai.api_key = os.getenv('OPENAI_API_KEY')
-os.environ["HF_TOKEN"] = "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"
-os.environ['COHERE_API_KEY'] = 'ZsNa61k87W8An4DsE9AA2RkjQBhsgT7pwHArXsXY'
+os.environ["HF_TOKEN"] = "hf_"
+os.environ['COHERE_API_KEY'] = 'COHERE_API_KEY'
 # To convert charts into images, so that they can be displayed on Stremlit front-end
 def base64_to_image(base64_string):
     # Decode the base64 string
